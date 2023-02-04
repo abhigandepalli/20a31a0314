@@ -3,7 +3,7 @@ class number:
     even=0
     def check(self,num):
         if num%2==0:
-            self,even=1
+            self.even=1
     def even_odd(self,num):
         self.check(num)
         if self.even==1:
